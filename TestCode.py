@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup
 import psycopg2
 
 
+# Below is the solution to the Test questions in "https://docs.google.com/document/d/1ik1fuc6L_Y-yIDeaJnlVBIwPeA5AvwAaciaQkHreMrM/edit"
+
 class BincomColorPage:
     def __init__(self, path):
         self.path = path
